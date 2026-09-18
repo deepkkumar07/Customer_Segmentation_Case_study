@@ -1,1 +1,23 @@
-Customer Segmentation Analysis Using RFM & K-Means ClusteringProject OverviewThis repository contains a data-driven case study focused on Customer Segmentation to optimize marketing strategies and enhance customer lifetime value. Utilizing transactional data, this project applies the RFM (Recency, Frequency, Monetary) framework alongside unsupervised machine learning (K-Means Clustering) to group customers into distinct segments based on their purchasing behaviors.By categorizing the customer base, businesses can transition from generic marketing to highly targeted campaigns, efficiently allocate resources, and improve overall customer retention.Key ObjectivesData Processing & Feature Engineering: Clean transactional logs and engineer core RFM metrics for every unique customer.Behavioral Segmentation: Build and evaluate an unsupervised machine learning model to segment the customer base.Business Actionability: Profile each cluster to discover actionable business insights and tailor marketing recommendations.Tech Stack & LibrariesLanguage: PythonData Manipulation: pandas, NumPyData Visualization: Matplotlib, SeabornMachine Learning: scikit-learn (KMeans, StandardScaler)Methodology1. Data Pipeline & RFM EngineeringRecency (R): Number of days since the customer's last purchase.Frequency (F): Total number of transactions made by the customer.Monetary (M): Total spend aggregated across all transactions.2. Data PreprocessingHandled missing values, duplicates, and cancelled orders (negative quantities).Addressed data skewness using log transformations to prepare features for clustering.Normalized features using StandardScaler to ensure K-Means treats all metrics equally.3. Machine Learning ModelingEmployed the Elbow Method and Silhouette Coefficients to determine the optimal number of clusters (\(K\)).Trained a K-Means Clustering algorithm to segment customers based on their normalized RFM scores.Customer Segments Discovered🥇 Champions / VIPs: High frequency, high monetary value, and recent purchases. (Focus: Upselling and loyalty rewards).🔄 Loyal Customers: Regular buyers with steady spend. (Focus: Referral programs and early access).⚠️ At Risk / Hibernating: High historical spend but haven't purchased in a long time. (Focus: Re-engagement campaigns and targeted discounts).🌱 New / Promising: Recent buyers with low frequency. (Focus: Onboarding flows and welcome offers).
+Customer Segmentation Analysis Using RFM & K-Means ClusteringProject OverviewThis repository contains a data-driven case study focused on Customer Segmentation to optimize marketing strategies and enhance customer lifetime value. Utilizing transactional data, this project applies the RFM (Recency, Frequency, Monetary) framework alongside unsupervised machine learning (K-Means Clustering) to group customers into distinct segments based on their purchasing behaviors.By categorizing the customer base, businesses can transition from generic marketing to highly targeted campaigns, efficiently allocate resources, and improve overall customer retention.
+
+Key Objectives
+Data Processing & Feature Engineering: Clean transactional logs and engineer core RFM metrics for every unique customer.
+Behavioral Segmentation: Build and evaluate an unsupervised machine learning model to segment the customer base.
+Business Actionability: Profile each cluster to discover actionable business insights and tailor marketing recommendations.
+
+Tech Stack & LibrariesLanguage: Python
+Data Manipulation: pandas, NumPyData 
+Visualization: Matplotlib, Seaborn
+Machine Learning: scikit-learn (KMeans, StandardScaler)
+
+Methodology1. Data Pipeline & RFM EngineeringRecency (R): Number of days since the customer's last purchase.
+Frequency (F): Total number of transactions made by the customer.Monetary (M): Total spend aggregated across all transactions.
+2. Data Preprocessing Handled missing values, duplicates, and cancelled orders (negative quantities).
+Addressed data skewness using log transformations to prepare features for clustering.Normalized features using StandardScaler to ensure K-Means treats all metrics equally.
+
+3. Machine Learning ModelingEmployed the Elbow Method and Silhouette Coefficients to determine the optimal number of clusters (\(K\)).Trained a K-Means Clustering algorithm to segment customers based on their normalized RFM scores.
+   
+Customer Segments Discovered🥇 Champions / VIPs: High frequency, high monetary value, and recent purchases. (Focus: Upselling and loyalty rewards).🔄
+Loyal Customers: Regular buyers with steady spend. (Focus: Referral programs and early access).⚠️ 
+At Risk / Hibernating: High historical spend but haven't purchased in a long time. (Focus: Re-engagement campaigns and targeted discounts).🌱 
+New / Promising: Recent buyers with low frequency. (Focus: Onboarding flows and welcome offers).
