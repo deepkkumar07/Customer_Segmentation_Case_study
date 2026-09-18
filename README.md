@@ -10,8 +10,10 @@ Data Manipulation: pandas, NumPyData
 Visualization: Matplotlib, Seaborn
 Machine Learning: scikit-learn (KMeans, StandardScaler)
 
-Methodology1. Data Pipeline & RFM EngineeringRecency (R): Number of days since the customer's last purchase.
+Methodology
+1. Data Pipeline & RFM EngineeringRecency (R): Number of days since the customer's last purchase.
 Frequency (F): Total number of transactions made by the customer.Monetary (M): Total spend aggregated across all transactions.
+
 2. Data Preprocessing Handled missing values, duplicates, and cancelled orders (negative quantities).
 Addressed data skewness using log transformations to prepare features for clustering.Normalized features using StandardScaler to ensure K-Means treats all metrics equally.
 
