@@ -20,6 +20,12 @@ Addressed data skewness using log transformations to prepare features for cluste
 3. Machine Learning ModelingEmployed the Elbow Method and Silhouette Coefficients to determine the optimal number of clusters (\(K\)).Trained a K-Means Clustering algorithm to segment customers based on their normalized RFM scores.
    
 Customer Segments Discovered🥇 Champions / VIPs: High frequency, high monetary value, and recent purchases. (Focus: Upselling and loyalty rewards).🔄
+
+
 Loyal Customers: Regular buyers with steady spend. (Focus: Referral programs and early access).⚠️ 
+
+
 At Risk / Hibernating: High historical spend but haven't purchased in a long time. (Focus: Re-engagement campaigns and targeted discounts).🌱 
+
+
 New / Promising: Recent buyers with low frequency. (Focus: Onboarding flows and welcome offers).
